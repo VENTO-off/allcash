@@ -1,0 +1,205 @@
+﻿#English locale
+
+locale.displayname=English
+locale.icon=:/res/assets/images/en.png
+locale.applylocalemsg=Please restart the application to take effect!
+
+#Add admin form
+gui.addadmin.title=Add Admin
+gui.addadmin.label.login=Login
+gui.addadmin.label.password=Password
+gui.addadmin.label.password2=Retype password
+gui.addadmin.label.firstname=First name
+gui.addadmin.label.secondname=Second name
+gui.addadmin.label.middlename=Middle name
+gui.addadmin.box.permissions=Grant permissions
+gui.addadmin.checkbox.addadmins=Add / remove admins
+gui.addadmin.checkbox.editphone=Edit phone
+gui.addadmin.checkbox.editpassword=Edit password
+gui.addadmin.checkbox.editpersonaldata=Edit personal data
+gui.addadmin.checkbox.editbalance=Edit balance
+gui.addadmin.button.register=Register
+gui.addadmin.button.cancel=Cancel
+
+#Admin client form
+gui.adminclient.title=Welcome %name% to admin panel.
+gui.adminclient.box.account=Admin Account
+gui.adminclient.label.registeredusers=Registered users:
+gui.adminclient.label.registeredadmins=Registered admins:
+gui.adminclient.button.addadmin=Add admin
+gui.adminclient.button.changepassword=Change password
+gui.adminclient.button.logout=Log out
+gui.adminclient.tab.users=Users
+gui.adminclient.tab.admins=Admins
+gui.adminclient.userstab.label.finduser=Find user:
+gui.adminclient.userstab.label.searchby=(search by phone / second name / wallet id)
+gui.adminclient.userstab.column.manage=Manage
+gui.adminclient.userstab.column.id=Id
+gui.adminclient.userstab.column.phone=Phone
+gui.adminclient.userstab.column.firstname=First name
+gui.adminclient.userstab.column.secondname=Second name
+gui.adminclient.userstab.column.middlename=Middle name
+gui.adminclient.userstab.column.registered=Registered
+gui.adminclient.userstab.column.balance=Balance
+gui.adminclient.userstab.column.walletid=Wallet Id
+gui.adminclient.adminstab.label.findadmin=Find admin:
+gui.adminclient.adminstab.label.searchby=(search by login / second name)
+gui.adminclient.adminstab.column.manage=Manage
+gui.adminclient.adminstab.column.id=Id
+gui.adminclient.adminstab.column.login=Login
+gui.adminclient.adminstab.column.firstname=First name
+gui.adminclient.adminstab.column.secondname=Second name
+gui.adminclient.adminstab.column.middlename=Middle name
+gui.adminclient.adminstab.column.addadmin=Add admin
+gui.adminclient.adminstab.column.editphone=Edit phone
+gui.adminclient.adminstab.column.editpassword=Edit password
+gui.adminclient.adminstab.column.editpersonaldata=Edit personal data
+gui.adminclient.adminstab.column.editbalance=Edit balance
+gui.adminclient.button.edituser=Edit user
+gui.adminclient.button.deleteadmin=Delete admin
+
+#Auth form
+gui.auth.title=Sign in to AllCash
+gui.auth.label.phone=Phone
+gui.auth.label.password=Password
+gui.auth.button.signin=Sign in
+gui.auth.label.infoRegLink=New to AllCash?
+gui.auth.label.regLink=Create an account
+gui.auth.button.developers=Developers
+
+#Change password form
+gui.changepassword.title=Change Password
+gui.changepassword.label.oldpassword=Old password
+gui.changepassword.label.newpassword=New password
+gui.changepassword.label.newpassword2=Confirm new password
+gui.changepassword.button.changepassword=Change password
+
+#Confirm transfer money form
+gui.confirmtransfermoney.title=Transfer Money
+gui.confirmtransfermoney.subtitle=to AllCash Wallet
+gui.confirmtransfermoney.label.wallet=Recipient's wallet:
+gui.confirmtransfermoney.label.recipient=Recipient:
+gui.confirmtransfermoney.label.amount=Amount:
+gui.confirmtransfermoney.button.confirm=Confirm
+gui.confirmtransfermoney.button.cancel=Cancel
+
+#Edit user form
+gui.edituser.title=Edit User
+gui.edituser.label.phone=Phone
+gui.edituser.label.newpassword=New password
+gui.edituser.label.balance=Balance
+gui.edituser.label.firstname=First name
+gui.edituser.label.secondname=Second name
+gui.edituser.label.middlename=Middle name
+gui.edituser.button.confirm=Confirm
+gui.edituser.button.cancel=Cancel
+
+#Register form
+gui.register.title=Join AllCash
+gui.register.label.phone=Phone
+gui.register.label.password=Password
+gui.register.label.password2=Retype password
+gui.register.label.firstname=First Name
+gui.register.label.secondname=Second Name
+gui.register.label.middlename=Middle Name
+gui.register.button.register=Create an account
+gui.register.label.infoLoginLink=Already have an account?
+gui.register.label.loginLink=Log in
+
+#Transaction history form
+gui.transactionhistory.title=Transaction History
+gui.transactionhistory.box.filter=Filter
+gui.transactionhistory.label.periodfrom=Period from
+gui.transactionhistory.label.periodto=to
+gui.transactionhistory.label.operationtype=Operation type:
+gui.transactionhistory.combobox.all=All operations
+gui.transactionhistory.combobox.consume=Consume
+gui.transactionhistory.combobox.income=Income
+gui.transactionhistory.button.search=Search
+gui.transactionhistory.column.date=Date
+gui.transactionhistory.column.time=Time
+gui.transactionhistory.column.amount=Amount
+gui.transactionhistory.column.description=Description
+
+#Transfer money form
+gui.transfermoney.title=Transfer Money
+gui.transfermoney.subtitle=to AllCash Wallet
+gui.transfermoney.label.wallet=Wallet ID
+gui.transfermoney.label.amount=Amount
+gui.transfermoney.button.pay=Pay
+
+#User client form
+gui.userclient.title=Welcome %name%.
+gui.userclient.box.balance=My Balance
+gui.userclient.box.wallet=My Wallet
+gui.userclient.box.account=My Account
+gui.userclient.button.changepassword=Change password
+gui.userclient.button.logout=Log out
+gui.userclient.box.transactions=Cash Transactions
+gui.userclient.button.transfermoney=Transfer Money
+gui.userclient.button.transactionhistory=Transaction History
+
+#Titles
+form.title.addadmin=Add Admin
+form.title.adminclient=Administrator
+form.title.auth=Auth
+form.title.changepassword=Change Password
+form.title.confirmtransfermoney=Confirm Transfer Money
+form.title.edituser=Edit User
+form.title.register=Register
+form.title.transactionhistory=Transaction History
+form.title.transfermoney=Transfer Money
+form.title.userclient=Client
+form.title.developers=Developers
+form.title.help=Help
+
+#Developers
+developers.list=<b>Gorichenko Y. E.</b> – development of algorithms, data processing.\n\n<b>Medvedev S. R.</b> – development of classes.\n\n<b>Dovbysh D. V.</b> – development of interface.
+
+#Help
+help.auth=If you <b>have an account</b>, you need to enter the phone number and password in the appropriate fields and click on the "Login" button.\n\nIn order to log in to an <b>administrator account</b>, you need to enter the username (must begin with the prefix "admin_") and password, and click on the "Log in" button.\n\nIf you <b>don’t have an account</b>, you can create it by clicking on "Create account" and you will be redirected to the registration form.
+help.register=To create an account you need to enter your phone number in the field <b>"Phone number"</b> in international format.\n<u>Phone number requirements</u>: must starts with "+" and contain 12 digits.\n\nIn the <b>"Password"</b> and <b>"Repeat password"</b> fields you need to enter the password that you will use to log into your account.\n<u>Password requirements</u>: must be at least 6 characters long, contain at least one number, one small letter, and one large letter.\n\nIn the <b>"First name"</b>, <b>"Last name"</b>, <b>"Middle name"</b> you need to enter your personal data.\n<u> Personal data requirements</u>: must starts with a capital letter and contain only letters and the "-" sign. 
+help.userclient=To <b>copy your wallet ID</b> click on the button with the copy icon in the "My wallet" section.\n\nIf you want to <b>change the password</b > for your account, click on the "Change password" button, where in the "Old password" you need to enter the password that is currently used, in the "New password" and "Confirm new password" you need to enter a new password for your account.\n<u>Password requirements</u>: must be at least 6 characters long, contain at least one number, one small letter, and one large letter.\n\nTo log out of the account, click on the "Log out" button and you will be redirected to the authorization form.\n\nIf you want to <b>transfer money to another wallet</b> click on the "Transfer money" button, where in the "Wallet ID" field you need to enter a wallet consisting of 10 digits to which you want to transfer money; in the "Amount" field you need to enter the amount of money to transfer and click on the "Pay" button.\n\nTo <b>see the transaction history</b> click on the "Transaction History" button, where all transfers can be sorted by period and type of operation and click on the "Search" button.
+help.adminclient=To <b>add a new administrator</b> click on the "Add Administrator" button, where in the "Login" field you need to enter a login consisting only of numbers and letters; in the "Password" and "Confirm the password" fields enter a new password; in the "Name", "Last name", "Middle Name" fields you need to enter personal data; set permissions in the "Grant Permissions" section.\n\nTo <b>change the password of your account</b>, click on the "Change password" button, where in the "Old password" field you need to enter the password that is currently used, in the "New password" and "Confirm new password" fields you need to enter a new password for your account.\n<u>Password requirements</u>: must be at least 6 characters long, contain at least one number, one small letter, and one large letter.\n\nTo <b>log out</b> click on the "Log Out" button and you will be redirected to the authorization form.\n\nTo<b>edit the user</b> you need to go to the "Users" tab and click on the "Edit" button next to the selected user, a user edit form will appear, fill in the form and click on the "Confirm" button.\n\nTo <b>remove administrator</b> go to the "Administrators" tab and click "Remove" button next to the selected administrator.
+
+#Messages
+msg.title.success=Success
+msg.title.warning=Warning
+msg.title.error=Error
+msg.title.critical=Critical Error
+msg.title.terminate=The application will be terminated!
+msg.general.nointernet=No internet connection available!\nPlease check your internet connection and try again.
+msg.general.statementerror=SQL statement execution has failed! See details in the console.
+msg.general.unknownerror=An unknown error has occurred! See details in the console.
+msg.general.erroropenfile=Error reading transaction history!
+msg.general.errorwritefile=Error saving transaction history!
+msg.general.newversion=A new version of AllCash is avaliable!\nPlease update AllCash to the latest version.
+msg.admin.invalidlogin=Invalid login!\nLogin must starts with "admin_"\nand contain only letter and numbers.
+msg.admin.logintaken=This login is already taken.
+msg.general.weakpassword=Password is very weak!\nPassword requirements:\n- be at least 6 characters long\n- musn't be longer than 32 symbols\n- contain at least one lowercase letter,\n  one uppercase letter, and a number.
+msg.general.passwordnotmatch=New password and confirm password don't match!
+msg.general.invalidfirstname=First name must start with a capital\nletter and contain only letters.
+msg.general.invalidsecondname=Second name must start with a capital\nletter and contain only letters.
+msg.general.invalidmiddlename=Middle name must start with a capital\nletter and contain only letters.
+msg.admin.adminregistered=New admin has been successfully registered!
+msg.admin.nopermissionaddadmin=Sorry, you don't have permission to add/delete admins.
+msg.admin.cantdeleteyourself=You can't delete yourself!
+msg.general.confirmaction=Confirm Action
+msg.admin.suretodeleteadmin=Are you sure you want to delete admin
+msg.user.invalidphoneorpassword=Phone or password incorrect!
+msg.general.invalidoldpassword=Old password incorrect!
+msg.general.passwordmustnotmatchwithprevious=New password mustn't match with the previous password!
+msg.general.passwordchanged=Password has been successfully changed!
+msg.money.moneytransfered=Successfully transfered %amount%\nto the wallet %wallet%.
+msg.general.invalidphone=Wrong format of the phone!\nValid phone format: +XXXXXXXXXXXXX
+msg.general.phoneregistered=Phone "%phone%" is already registered.
+msg.money.invalidformat=Wrong format of the money.
+msg.admin.usermodified=The user has been modified successfully.
+msg.user.accountregistered=Congratulations!\nYour account has been successfully registered!\nUse your phone and password to log in.
+msg.general.invalidwallet=Wrong format of the wallet.
+msg.money.canttransfertoyourself=You can't transfer money to yourself!
+msg.user.walletcopied=Your wallet id has been copied to the clipboard.
+msg.money.notenoughmoney=Not enough money on your wallet.
+msg.general.walletnotexists=This wallet doesn't exist.
+msg.money.transferto=Money transfer to
+msg.money.transferfrom=Money transfer from

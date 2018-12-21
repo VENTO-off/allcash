@@ -1,0 +1,205 @@
+#Russian locale
+
+locale.displayname=Русский
+locale.icon=:/res/assets/images/ru.png
+locale.applylocalemsg=Пожалуйста, перезапустите приложение, чтобы изменения вступили в силу!
+
+#Add admin form
+gui.addadmin.title=Добавить Администратора
+gui.addadmin.label.login=Логин
+gui.addadmin.label.password=Пароль
+gui.addadmin.label.password2=Повторите пароль
+gui.addadmin.label.firstname=Имя
+gui.addadmin.label.secondname=Фамилия
+gui.addadmin.label.middlename=Отчество
+gui.addadmin.box.permissions=Права доступа
+gui.addadmin.checkbox.addadmins=Добавить / удалить администратора
+gui.addadmin.checkbox.editphone=Изменить номер телефона
+gui.addadmin.checkbox.editpassword=Изменить пароль
+gui.addadmin.checkbox.editpersonaldata=Изменить личные данные
+gui.addadmin.checkbox.editbalance=Изменить баланс
+gui.addadmin.button.register=Зарегистрировать
+gui.addadmin.button.cancel=Отмена
+
+#Admin client form
+gui.adminclient.title=Добро пожаловать %name% в панель администратора.
+gui.adminclient.box.account=Аккаунт Администратора
+gui.adminclient.label.registeredusers=Всего пользователей:
+gui.adminclient.label.registeredadmins=Всего администраторов:
+gui.adminclient.button.addadmin=Добавить админа
+gui.adminclient.button.changepassword=Изменить пароль
+gui.adminclient.button.logout=Выйти
+gui.adminclient.tab.users=Пользователи
+gui.adminclient.tab.admins=Администраторы
+gui.adminclient.userstab.label.finduser=Поиск:
+gui.adminclient.userstab.label.searchby=(поиск по номеру телефона / фамилии / id кошелька)
+gui.adminclient.userstab.column.manage=Управление
+gui.adminclient.userstab.column.id=Id
+gui.adminclient.userstab.column.phone=Телефон
+gui.adminclient.userstab.column.firstname=Имя
+gui.adminclient.userstab.column.secondname=Фамилия
+gui.adminclient.userstab.column.middlename=Отчество
+gui.adminclient.userstab.column.registered=Дата регистрации
+gui.adminclient.userstab.column.balance=Баланс
+gui.adminclient.userstab.column.walletid=Id кошелька
+gui.adminclient.adminstab.label.findadmin=Поиск:
+gui.adminclient.adminstab.label.searchby=(поиск по логину / фамилии)
+gui.adminclient.adminstab.column.manage=Управление
+gui.adminclient.adminstab.column.id=Id
+gui.adminclient.adminstab.column.login=Логин
+gui.adminclient.adminstab.column.firstname=Имя
+gui.adminclient.adminstab.column.secondname=Фамилия
+gui.adminclient.adminstab.column.middlename=Отчество
+gui.adminclient.adminstab.column.addadmin=Добавить администратора
+gui.adminclient.adminstab.column.editphone=Изменить номер телефона
+gui.adminclient.adminstab.column.editpassword=Изменить пароль
+gui.adminclient.adminstab.column.editpersonaldata=Изменить личные данные
+gui.adminclient.adminstab.column.editbalance=Изменить баланс
+gui.adminclient.button.edituser=Изменить
+gui.adminclient.button.deleteadmin=Удалить
+
+#Auth form
+gui.auth.title=Вход в AllCash
+gui.auth.label.phone=Номер телефона
+gui.auth.label.password=Пароль
+gui.auth.button.signin=Войти
+gui.auth.label.infoRegLink=Впервые в AllCash?
+gui.auth.label.regLink=Создать аккаунт
+gui.auth.button.developers=Разработчики
+
+#Change password form
+gui.changepassword.title=Изменение пароля
+gui.changepassword.label.oldpassword=Старый пароль
+gui.changepassword.label.newpassword=Новый пароль
+gui.changepassword.label.newpassword2=Подтвердите новый пароль
+gui.changepassword.button.changepassword=Изменить пароль
+
+#Confirm transfer money form
+gui.confirmtransfermoney.title=Перевести деньги
+gui.confirmtransfermoney.subtitle=на кошелёк AllCash
+gui.confirmtransfermoney.label.wallet=Кошелёк получателя:
+gui.confirmtransfermoney.label.recipient=Получатель:
+gui.confirmtransfermoney.label.amount=Количество:
+gui.confirmtransfermoney.button.confirm=Подтвердить
+gui.confirmtransfermoney.button.cancel=Отмена
+
+#Edit user form
+gui.edituser.title=Редактировать пользователя
+gui.edituser.label.phone=Номер телефона
+gui.edituser.label.newpassword=Новый пароль
+gui.edituser.label.balance=Баланс
+gui.edituser.label.firstname=Имя
+gui.edituser.label.secondname=Фамилия
+gui.edituser.label.middlename=Отчество
+gui.edituser.button.confirm=Подтвердить
+gui.edituser.button.cancel=Отмена
+
+#Register form
+gui.register.title=Регистрация в AllCash
+gui.register.label.phone=Номер телефона
+gui.register.label.password=Пароль
+gui.register.label.password2=Повторите пароль
+gui.register.label.firstname=Имя
+gui.register.label.secondname=Фамилия
+gui.register.label.middlename=Отчество
+gui.register.button.register=Создать аккаунт
+gui.register.label.infoLoginLink=Уже есть аккаунт?
+gui.register.label.loginLink=Войти
+
+#Transaction history form
+gui.transactionhistory.title=История транзакций
+gui.transactionhistory.box.filter=Фильтр
+gui.transactionhistory.label.periodfrom=Период с
+gui.transactionhistory.label.periodto=по
+gui.transactionhistory.label.operationtype=Тип операции:
+gui.transactionhistory.combobox.all=Все операции
+gui.transactionhistory.combobox.consume=Расходы
+gui.transactionhistory.combobox.income=Доходы
+gui.transactionhistory.button.search=Поиск
+gui.transactionhistory.column.date=Дата
+gui.transactionhistory.column.time=Время
+gui.transactionhistory.column.amount=Количество
+gui.transactionhistory.column.description=Описание
+
+#Transfer money form
+gui.transfermoney.title=Перевести деньги
+gui.transfermoney.subtitle=на кошелёк AllCash
+gui.transfermoney.label.wallet=ID Кошелька
+gui.transfermoney.label.amount=Количество
+gui.transfermoney.button.pay=Оплатить
+
+#User client form
+gui.userclient.title=Добро пожаловать %name%.
+gui.userclient.box.balance=Мой баланс
+gui.userclient.box.wallet=Мой кошелёк
+gui.userclient.box.account=Мой аккаунт
+gui.userclient.button.changepassword=Изменить пароль
+gui.userclient.button.logout=Выйти
+gui.userclient.box.transactions=Денежные переводы
+gui.userclient.button.transfermoney=Перевести деньги
+gui.userclient.button.transactionhistory=История транзакций
+
+#Form names
+form.title.addadmin=Добавить Администратора 
+form.title.adminclient=Администраторская
+form.title.auth=Авторизация
+form.title.changepassword=Изменить Пароль
+form.title.confirmtransfermoney=Подтвердить перевод
+form.title.edituser=Редактировать Пользователя
+form.title.register=Регистрация
+form.title.transactionhistory=История Транзакций
+form.title.transfermoney=Перевести Деньги
+form.title.userclient=Клиент
+form.title.developers=Разработчики
+form.title.help=Помощь
+
+#Developers
+developers.list=<b>Гориченко Ю. Е.</b> – разработка алгоритмов, работа с данными.\n\n<b>Медведев С. Р.</b> – разработка классов.\n\n<b>Довбыш Д. В.</b> – разработка интерфейса.
+
+#Help
+help.auth=Если у Вас <b>есть аккаунт</b>, нужно ввести номер телефона и пароль в соответствующие поля и нажать на кнопку «Войти».\n\nДля того, чтобы войти в <b>аккаунт администратора</b>, нужно ввести логин (должен начинаться с префикса «admin_») и пароль, и нажать на кнопку «Войти».\n\nЕсли у Вас <b>нет аккаунта</b>, Вы можете его создать, нажав на «Создать аккаунт» и Вы попадете на форму регистрации.
+help.register=Для того, чтобы создать аккаунт в поле <b>«Номер телефона»</b> нужно ввести Ваш номер телефона в международном формате.\n<u>Требования к написанию номера телефона</u>: должен начинаться со знака «+» и содержать 12 цифр.\n\nВ поля <b>«Пароль»</b> и <b>«Повторите пароль»</b> нужно ввести пароль, который Вы будете использовать для входа в Ваш аккаунт.\n<u>Требования к паролю</u>: должен быть не менее 6 символов, содержать хотя бы одну цифру, одну маленькую букву и одну большую букву.\n\nВ поля <b>«Имя»</b>, <b>«Фамилия»</b>, <b>«Отчество»</b> нужно ввести свои персональные Данные.\n<u>Требования к написанию персональных данных</u>: должны начинаться с большой буквы и содержать только буквы и знак «-».
+help.userclient=Для того, чтобы <b>скопировать ID вашего кошелька</b> нажмите на кнопку с иконкой копирования в разделе «Мой кошелек».\n\nЕсли Вы желаете <b>изменить пароль</b> для Вашего аккаунта нажмите на кнопку «Изменить пароль», где в поле «Старый пароль» необходимо ввести пароль, который сейчас используется, в поля «Новый пароль» и «Подтвердите новый пароль» нужно ввести новый пароль для Вашего аккаунта.\n<u>Требования к паролю</u>: должен быть не менее 6 символов, содержать хотя бы одну цифру, одну маленькую букву и одну большую букву.\n\nДля того, чтобы выйти из аккаунта нажмите на кнопку «Выйти» и Вы попадете на форму авторизации.\n\nЕсли Вы желаете <b>перевести средства на другой кошелек</b> нажмите на кнопку «Перевести средства», где в поле «ID кошелька» нужно ввести кошелек, состоящий из 10 цифр, на который Вы желаете перевести средства; в поле «Количество» нужно ввести сумму для перевода и нажать на кнопку «Оплатить».\n\nДля того, чтобы <b>просмотреть историю транзакций</b> нажмите на кнопку «История транзакций», где все переводы можно отсортировать по периоду и типу операции и нажать на кнопку «Поиск».
+help.adminclient=Чтобы <b>добавить нового администратора</b> нажмите на кнопку «Добавить Админа», где в поле «Логин» нужно ввести логин, состоящий только из цифр и букв; в поля «Пароль» и «Подтвердите ввод пароля» ввести новый пароль в поля «Имя», «Фамилия», «Отчество» нужно ввести персональные данные; установить права доступа в разделе «Права доступа».\n\nЧтобы <b>изменить пароль</b> для Вашего аккаунта нажмите на кнопку «Изменить пароль», где в поле «Старый пароль» необходимо ввести пароль, который сейчас используется, в поля «Новый пароль» и «Подтвердите новый пароль» нужно ввести новый пароль.\n<u>Требования к паролю</u>: должен быть не менее 6 символов, содержать хотя бы одну цифру, одну маленькую букву и одну большую букву.\n\nЧтобы <b>выйти из аккаунта</b> нажмите на кнопку «Выйти» и Вы попадете на форму авторизации.\n\nДля того, чтобы <b>отредактировать пользователя</b> нужно перейти на вкладку «Пользователи» и нажать на кнопку «Редактировать» напротив выбранного пользователя, заполнить полученную форму и нажать на кнопку «Подтвердить».\n\nЧтобы <b>удалить администратора</b> нужно перейти на вкладку «Администраторы» и нажать на кнопку «Удалить» напротив выбранного администратора.
+
+#Messages
+msg.title.success=Успешно
+msg.title.warning=Внимание
+msg.title.error=Ошибка
+msg.title.critical=Критическая Ошибка
+msg.title.terminate=Программа будет завершена!
+msg.general.nointernet=Нет подключения к интернету!\nПожалуйста, проверьте подключение и повторите попытку.
+msg.general.statementerror=Ошибка выполнения SQL запроса! Подробности в консоли.
+msg.general.unknownerror=Произошла неизвестная ошибка! Подробности в консоли.
+msg.general.erroropenfile=Ошибка чтения истории транзакций!
+msg.general.errorwritefile=Ошибка сохранения истории транзакций!
+msg.general.newversion=Новая версия AllCash доступна!\nПожалуйста, обновите AllCash до последней версии.
+msg.admin.invalidlogin=Неверный логин!\nЛогин должен начинаться с "admin_" \nи содержать только буквы и цифры.
+msg.admin.logintaken=Этот логин уже занят.
+msg.general.weakpassword=Пароль очень слабый!\nТребования к паролю:\n- должен быть не менее 6 символов\n- должен быть не более 32 символов\n- содержать хотя бы одну строчную букву,\n  одну прописную букву и число.
+msg.general.passwordnotmatch=Новый пароль и пароль подтверждения не совпадает!
+msg.general.invalidfirstname=Имя должно начинаться с заглавной\nбуквы и содержать только буквы.
+msg.general.invalidsecondname=Фамилия должна начинаться с заглавной\nбуквы и содержать только буквы.
+msg.general.invalidmiddlename=Отчество должно начинаться с заглавной\nбуквы и содержать только буквы.
+msg.admin.adminregistered=Новый администратор успешно зарегистрирован!
+msg.admin.nopermissionaddadmin=Извините, у вас нет прав на добавление/удаление администраторов.
+msg.admin.cantdeleteyourself=Вы не можете удалить себя!
+msg.general.confirmaction=Подтвердите Действие
+msg.admin.suretodeleteadmin=Вы уверены, что хотите удалить администратора
+msg.user.invalidphoneorpassword=Неверный телефон или пароль!
+msg.general.invalidoldpassword=Старый пароль неверный!
+msg.general.passwordmustnotmatchwithprevious=Новый пароль не должен совпадать с предыдущим паролем!
+msg.general.passwordchanged=Пароль успешно изменен!
+msg.money.moneytransfered=Успешно перечислено %amount%\nна кошелёк %wallet%.
+msg.general.invalidphone=Неправильный формат телефона!\nПравильный формат телефона: +XXXXXXXXXXXXX
+msg.general.phoneregistered=Телефон "%phone%" уже зарегистрирован.
+msg.money.invalidformat=Неправильный формат денег.
+msg.admin.usermodified=Пользователь успешно изменен.
+msg.user.accountregistered=Поздравляем!\nВаш аккаунт успешно зарегистрирован!\nИспользуйте свой телефон и пароль для входа.
+msg.general.invalidwallet=Неправильный формат кошелька.
+msg.money.canttransfertoyourself=Вы не можете перевести деньги себе!
+msg.user.walletcopied=Ваш кошелек скопирован в буфер обмена.
+msg.money.notenoughmoney=Недостаточно денег на Вашем кошельке.
+msg.general.walletnotexists=Этот кошелёк не существует.
+msg.money.transferto=Перевод средств на
+msg.money.transferfrom=Получение средств от

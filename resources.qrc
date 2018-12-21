@@ -1,0 +1,18 @@
+<RCC>
+    <qresource prefix="/res">
+        <file>assets/lang/en_US.lang</file>
+        <file>assets/lang/ru_RU.lang</file>
+        <file>assets/lang/uk_UA.lang</file>
+        <file>assets/images/en.png</file>
+        <file>assets/images/ru.png</file>
+        <file>assets/images/ua.png</file>
+        <file>assets/images/copy.png</file>
+        <file>assets/images/history.png</file>
+        <file>assets/images/transfer.png</file>
+        <file>assets/images/search.png</file>
+        <file>assets/images/admin.png</file>
+        <file>assets/images/password.png</file>
+        <file>assets/images/logout.png</file>
+        <file>assets/images/help.png</file>
+    </qresource>
+</RCC>

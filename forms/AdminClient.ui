@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>AdminClient</class>
+ <widget class="QWidget" name="AdminClient">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>691</width>
+    <height>471</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>form.title.adminclient</string>
+  </property>
+  <widget class="QGroupBox" name="accountGroupBox">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>50</y>
+     <width>671</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;Trebuchet MS&quot;;</string>
+   </property>
+   <property name="title">
+    <string>gui.adminclient.box.account</string>
+   </property>
+   <widget class="QPushButton" name="changePasswordButton">
+    <property name="geometry">
+     <rect>
+      <x>370</x>
+      <y>20</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 10pt &quot;Trebuchet MS&quot;;</string>
+    </property>
+    <property name="text">
+     <string>gui.adminclient.button.changepassword</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="logOutButton">
+    <property name="geometry">
+     <rect>
+      <x>520</x>
+      <y>20</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 10pt &quot;Trebuchet MS&quot;;</string>
+    </property>
+    <property name="text">
+     <string>gui.adminclient.button.logout</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="addAdminButton">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>20</y>
+      <width>141</width>
+      <height>31</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true">font: 75 10pt &quot;Trebuchet MS&quot;;</string>
+    </property>
+    <property name="text">
+     <string>gui.adminclient.button.addadmin</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="registeredUsersLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>20</y>
+      <width>151</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="styleSheet">
+     <string notr="true"/>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;gui.adminclient.label.registeredusers&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="registeredAdminsLabel">
+    <property name="geometry">
+     <rect>
+      <x>10</x>
+      <y>35</y>
+      <width>151</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;right&quot;&gt;gui.adminclient.label.registeredadmins&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="registeredUsersValue">
+    <property name="geometry">
+     <rect>
+      <x>165</x>
+      <y>20</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;%users%&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+   <widget class="QLabel" name="registeredAdminsValue">
+    <property name="geometry">
+     <rect>
+      <x>165</x>
+      <y>35</y>
+      <width>51</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;%admins%&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QTabWidget" name="manageUsersTabs">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>120</y>
+     <width>671</width>
+     <height>301</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;Trebuchet MS&quot;;</string>
+   </property>
+   <property name="currentIndex">
+    <number>0</number>
+   </property>
+   <widget class="QWidget" name="defaultUsers">
+    <attribute name="title">
+     <string>gui.adminclient.tab.users</string>
+    </attribute>
+    <widget class="QTableWidget" name="usersTable">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>40</y>
+       <width>665</width>
+       <height>225</height>
+      </rect>
+     </property>
+     <property name="contextMenuPolicy">
+      <enum>Qt::DefaultContextMenu</enum>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Trebuchet MS&quot;;</string>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QAbstractScrollArea::AdjustIgnored</enum>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <property name="defaultDropAction">
+      <enum>Qt::IgnoreAction</enum>
+     </property>
+     <attribute name="horizontalHeaderVisible">
+      <bool>true</bool>
+     </attribute>
+     <attribute name="horizontalHeaderCascadingSectionResizes">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="horizontalHeaderDefaultSectionSize">
+      <number>100</number>
+     </attribute>
+     <attribute name="horizontalHeaderMinimumSectionSize">
+      <number>75</number>
+     </attribute>
+     <attribute name="horizontalHeaderStretchLastSection">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="verticalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="verticalHeaderCascadingSectionResizes">
+      <bool>true</bool>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>gui.adminclient.userstab.column.manage</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>gui.adminclient.userstab.column.id</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>gui.adminclient.userstab.column.phone</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>gui.adminclient.userstab.column.firstname</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>gui.adminclient.userstab.column.secondname</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>gui.adminclient.userstab.column.middlename</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>gui.adminclient.userstab.column.registered</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>gui.adminclient.userstab.column.balance</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>gui.adminclient.userstab.column.walletid</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QLabel" name="findUserLabel">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>91</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true"/>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;gui.adminclient.userstab.label.finduser&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QLineEdit" name="findUserField">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>10</y>
+       <width>191</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Trebuchet MS&quot;;</string>
+     </property>
+     <property name="maxLength">
+      <number>40</number>
+     </property>
+    </widget>
+    <widget class="QLabel" name="searchUsersByLabel">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>10</y>
+       <width>371</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;gui.adminclient.userstab.label.searchby&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+   <widget class="QWidget" name="adminUsers">
+    <attribute name="title">
+     <string>gui.adminclient.tab.admins</string>
+    </attribute>
+    <widget class="QLineEdit" name="findAdminField">
+     <property name="geometry">
+      <rect>
+       <x>90</x>
+       <y>10</y>
+       <width>191</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Trebuchet MS&quot;;</string>
+     </property>
+     <property name="maxLength">
+      <number>40</number>
+     </property>
+    </widget>
+    <widget class="QLabel" name="findAdminLabel">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>10</y>
+       <width>91</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 12pt &quot;Trebuchet MS&quot;;</string>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-size:10pt;&quot;&gt;gui.adminclient.adminstab.label.findadmin&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+    <widget class="QTableWidget" name="adminsTable">
+     <property name="geometry">
+      <rect>
+       <x>0</x>
+       <y>40</y>
+       <width>665</width>
+       <height>225</height>
+      </rect>
+     </property>
+     <property name="styleSheet">
+      <string notr="true">font: 75 10pt &quot;Trebuchet MS&quot;;</string>
+     </property>
+     <property name="sizeAdjustPolicy">
+      <enum>QAbstractScrollArea::AdjustIgnored</enum>
+     </property>
+     <property name="editTriggers">
+      <set>QAbstractItemView::NoEditTriggers</set>
+     </property>
+     <attribute name="horizontalHeaderMinimumSectionSize">
+      <number>75</number>
+     </attribute>
+     <attribute name="horizontalHeaderStretchLastSection">
+      <bool>false</bool>
+     </attribute>
+     <attribute name="verticalHeaderVisible">
+      <bool>false</bool>
+     </attribute>
+     <column>
+      <property name="text">
+       <string>gui.adminclient.adminstab.column.manage</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>gui.adminclient.adminstab.column.id</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>gui.adminclient.adminstab.column.login</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>gui.adminclient.adminstab.column.firstname</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>gui.adminclient.adminstab.column.secondname</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>gui.adminclient.adminstab.column.middlename</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>gui.adminclient.adminstab.column.addadmin</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>gui.adminclient.adminstab.column.editphone</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>gui.adminclient.adminstab.column.editpassword</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>gui.adminclient.adminstab.column.editpersonaldata</string>
+      </property>
+     </column>
+     <column>
+      <property name="text">
+       <string>gui.adminclient.adminstab.column.editbalance</string>
+      </property>
+     </column>
+    </widget>
+    <widget class="QLabel" name="searchAdminsByLabel">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="geometry">
+      <rect>
+       <x>290</x>
+       <y>10</y>
+       <width>371</width>
+       <height>26</height>
+      </rect>
+     </property>
+     <property name="text">
+      <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;gui.adminclient.adminstab.label.searchby&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+     </property>
+    </widget>
+   </widget>
+  </widget>
+  <widget class="QLabel" name="welcomeLabel">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>10</y>
+     <width>671</width>
+     <height>25</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 14pt &quot;Trebuchet MS&quot;;</string>
+   </property>
+   <property name="text">
+    <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p align=&quot;center&quot;&gt;&lt;span style=&quot; font-weight:600;&quot;&gt;gui.adminclient.title&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="localeChanger">
+   <property name="geometry">
+    <rect>
+     <x>260</x>
+     <y>430</y>
+     <width>171</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 75 10pt &quot;Trebuchet MS&quot;;</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="helpButton">
+   <property name="geometry">
+    <rect>
+     <x>650</x>
+     <y>430</y>
+     <width>31</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string/>
+   </property>
+  </widget>
+ </widget>
+ <tabstops>
+  <tabstop>addAdminButton</tabstop>
+  <tabstop>changePasswordButton</tabstop>
+  <tabstop>logOutButton</tabstop>
+  <tabstop>manageUsersTabs</tabstop>
+  <tabstop>usersTable</tabstop>
+  <tabstop>findUserField</tabstop>
+  <tabstop>localeChanger</tabstop>
+  <tabstop>findAdminField</tabstop>
+  <tabstop>adminsTable</tabstop>
+ </tabstops>
+ <resources/>
+ <connections/>
+</ui>

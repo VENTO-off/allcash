@@ -1,0 +1,205 @@
+﻿#Ukrainian locale
+
+locale.displayname=Українська
+locale.icon=:/res/assets/images/ua.png
+locale.applylocalemsg=Будь ласка, перезапустіть програму, щоб зміни вступили в силу!
+
+#Add admin form
+gui.addadmin.title=Додати Адміністратора
+gui.addadmin.label.login=Логін
+gui.addadmin.label.password=Пароль
+gui.addadmin.label.password2=Повторіть введення паролю
+gui.addadmin.label.firstname=Ім'я
+gui.addadmin.label.secondname=Прізвище
+gui.addadmin.label.middlename=По батькові
+gui.addadmin.box.permissions=Права доступу
+gui.addadmin.checkbox.addadmins=Додати / видалити адміністратора
+gui.addadmin.checkbox.editphone=Змінити номер телефону
+gui.addadmin.checkbox.editpassword=Змінити пароль
+gui.addadmin.checkbox.editpersonaldata=Змінити особисті дані
+gui.addadmin.checkbox.editbalance=Змінити баланс
+gui.addadmin.button.register=Зареєструватися
+gui.addadmin.button.cancel=Скасувати
+
+#Admin client form
+gui.adminclient.title=Ласкаво просимо %name% у панель адміністратора.
+gui.adminclient.box.account=Аккаунт Адміністратора
+gui.adminclient.label.registeredusers=Всього користувачів:
+gui.adminclient.label.registeredadmins=Всього адміністраторів:
+gui.adminclient.button.addadmin=Додати Адміна
+gui.adminclient.button.changepassword=Змінити пароль
+gui.adminclient.button.logout=Вийти
+gui.adminclient.tab.users=Користувачі
+gui.adminclient.tab.admins=Адміністратори
+gui.adminclient.userstab.label.finduser=Знайти:
+gui.adminclient.userstab.label.searchby=(пошук по номеру телефону / прізвищу / id гаманця)
+gui.adminclient.userstab.column.manage=Управління
+gui.adminclient.userstab.column.id=Id
+gui.adminclient.userstab.column.phone=Номер телефону
+gui.adminclient.userstab.column.firstname=Ім'я
+gui.adminclient.userstab.column.secondname=Прізвище
+gui.adminclient.userstab.column.middlename=По батькові
+gui.adminclient.userstab.column.registered=Дата реєстрації
+gui.adminclient.userstab.column.balance=Баланс
+gui.adminclient.userstab.column.walletid=Id гаманця
+gui.adminclient.adminstab.label.findadmin=Знайти:
+gui.adminclient.adminstab.label.searchby=(пошук по логіну / прізвищу)
+gui.adminclient.adminstab.column.manage=Управління
+gui.adminclient.adminstab.column.id=Id
+gui.adminclient.adminstab.column.login=Логін
+gui.adminclient.adminstab.column.firstname=Ім'я
+gui.adminclient.adminstab.column.secondname=Прізвище
+gui.adminclient.adminstab.column.middlename=По батькові
+gui.adminclient.adminstab.column.addadmin=Додати адміністратора
+gui.adminclient.adminstab.column.editphone=Змінити номер телефону
+gui.adminclient.adminstab.column.editpassword=Змінити пароль
+gui.adminclient.adminstab.column.editpersonaldata=Змінити особисті дані
+gui.adminclient.adminstab.column.editbalance=Змінити баланс
+gui.adminclient.button.edituser=Редагувати
+gui.adminclient.button.deleteadmin=Видалити
+
+#Auth form
+gui.auth.title=Вхід до AllCash
+gui.auth.label.phone=Номер телефону
+gui.auth.label.password=Пароль
+gui.auth.button.signin=Увійти
+gui.auth.label.infoRegLink=Вперше у AllCash?
+gui.auth.label.regLink=Створіть акаунт
+gui.auth.button.developers=Розробники
+
+#Change password form
+gui.changepassword.title=Зміна паролю
+gui.changepassword.label.oldpassword=Старий пароль
+gui.changepassword.label.newpassword=Новий пароль
+gui.changepassword.label.newpassword2=Підтвердіть новий пароль
+gui.changepassword.button.changepassword=Змінити пароль
+
+#Confirm transfer money form
+gui.confirmtransfermoney.title=Перевести кошти
+gui.confirmtransfermoney.subtitle=на гаманець AllCash
+gui.confirmtransfermoney.label.wallet=Гаманець одержувача:
+gui.confirmtransfermoney.label.recipient=Одержувач:
+gui.confirmtransfermoney.label.amount=Кількість:
+gui.confirmtransfermoney.button.confirm=Підтвердити
+gui.confirmtransfermoney.button.cancel=Скасувати
+
+#Edit user form
+gui.edituser.title=Редагувати користувача
+gui.edituser.label.phone=Номер телефону
+gui.edituser.label.newpassword=Новий пароль
+gui.edituser.label.balance=Баланс
+gui.edituser.label.firstname=Ім'я
+gui.edituser.label.secondname=Прізвище
+gui.edituser.label.middlename=По батькові
+gui.edituser.button.confirm=Підтвердити
+gui.edituser.button.cancel=Скасувати
+
+#Register form
+gui.register.title=Реєстрація в AllCash
+gui.register.label.phone=Номер телефону
+gui.register.label.password=Пароль
+gui.register.label.password2=Повторіть пароль
+gui.register.label.firstname=Ім'я
+gui.register.label.secondname=Прізвище
+gui.register.label.middlename=По батькові
+gui.register.button.register=Створити аккаунт
+gui.register.label.infoLoginLink=Вже маєте аккаунт?
+gui.register.label.loginLink=Увійти
+
+#Transaction history form
+gui.transactionhistory.title=Історія транзакцій
+gui.transactionhistory.box.filter=Фільтр
+gui.transactionhistory.label.periodfrom=Період з
+gui.transactionhistory.label.periodto=до
+gui.transactionhistory.label.operationtype=Тип операції:
+gui.transactionhistory.combobox.all=Всі операції
+gui.transactionhistory.combobox.consume=Витрати
+gui.transactionhistory.combobox.income=Доходи
+gui.transactionhistory.button.search=Пошук
+gui.transactionhistory.column.date=Дата
+gui.transactionhistory.column.time=Час
+gui.transactionhistory.column.amount=Кількість
+gui.transactionhistory.column.description=Опис
+
+#Transfer money form
+gui.transfermoney.title=Перевести кошти
+gui.transfermoney.subtitle=до гаманця AllCash
+gui.transfermoney.label.wallet=ID Гаманця
+gui.transfermoney.label.amount=Кількість
+gui.transfermoney.button.pay=Оплатити
+
+#User client form
+gui.userclient.title=Ласкаво просимо %name%.
+gui.userclient.box.balance=Мій баланс
+gui.userclient.box.wallet=Мій гаманець
+gui.userclient.box.account=Мій аккаунт
+gui.userclient.button.changepassword=Змінити пароль
+gui.userclient.button.logout=Вийти
+gui.userclient.box.transactions=Грошові перекази
+gui.userclient.button.transfermoney=Перевести кошти
+gui.userclient.button.transactionhistory=Історія транзакцій
+
+#Form names
+form.title.addadmin=Додати Адміністратора
+form.title.adminclient=Адміністраторська
+form.title.auth=Авторизація
+form.title.changepassword=Змінити Пароль
+form.title.confirmtransfermoney=Підтвердити переказ
+form.title.edituser=Редагувати користувача
+form.title.register=Реєстрація
+form.title.transactionhistory=Історія транзакцій
+form.title.transfermoney=Перевести кошти
+form.title.userclient=Клієнт
+form.title.developers=Розробники
+form.title.help=Допомога
+
+#Developers
+developers.list=<b>Горіченко Ю. Є.</b> – розробка алгоритмів, робота з даними.\n\n<b>Медведєв С. Р.</b> – розробка класів.\n\n<b>Довбиш Д. В.</b> – розробка інтерфейсу.
+
+#Help
+help.auth=Якщо у Вас <b>є аккаунт</b>, потрібно ввести номер телефону та пароль у відповідні поля та натиснути на кнопку «Увійти».\n\nДля того, щоб увійти в <b>аккаунт адміністратора</b>, потрібно ввести логін (повинен починатися з префікса «admin_») та пароль, і натиснути на кнопку «Увійти».\n\nЯкщо у Вас <b>немає акаунту</b>, Ви можете його створити натиснувши на «Створіть акаунт» і Ви потрапите на форму реєстрації.
+help.register=Для того, щоб створити аккаунт у поле <b>«Номер телефону»</b> потрібно ввести Ваш номер телефону у міжнародному форматі.\n<u>Вимоги до написання номеру телефону</u>: повинен починатися зі знаку «+» та містити 12 цифр.\n\nУ поля <b>«Пароль»</b> та <b>«Повторіть пароль»</b> потрібно ввести пароль, який Ви будете використовувати для входу у Ваш аккаунт.\n<u>Вимоги до паролю</u>: повинен бути не менше 6 символів, містити хоча б одну цифру, одну маленьку літеру та одну велику літеру.\n\nУ поля <b>«Ім'я»</b>, <b>«Прізвище»</b>, <b>«По батькові»</b> потрібно ввести свої персональні дані.\n<u>Вимоги до написання персональних даних</u>: повинні починатися с великої літери та містити тільки букви і знак «-».
+help.userclient=Для того, щоб <b>скопіювати ID Вашого гаманця</b> натисніть на кнопку з іконкою копіювання у розділі «Мій гаманець».\n\nЯкщо Ви бажаєте <b>змінити пароль</b> для Вашого аккаунту натисніть на кнопку «Змінити пароль», де у поле «Старий пароль» Вам потрібно ввести пароль, який зараз використовується, у поля «Новий пароль» та «Підтвердіть новий пароль» потрібно ввести новий пароль для Вашого аккаунту.\n<u>Вимоги до паролю</u>: повинен бути не менше 6 символів, містити хоча б одну цифру, одну маленьку літеру та одну велику літеру.\n\nДля того, щоб <b>вийти з аккаунту</b> натисніть на кнопку «Вийти» і Ви потрапите на форму авторизації.\n\nЯкщо Ви бажаєте <b>перевести кошти на інший гаманець</b> натисніть на кнопку «Перевести кошти», де у поле «ID гаманця» потрібно ввести гаманець, який складається з 10 цифр, на який Ви бажаєте переказати кошти; у поле «Кількість» потрібно ввести суму грошей для переказу і натиснути на кнопку «Оплатити».\n\nДля того, щоб <b>переглянути історію транзакції</b> натисніть на кнопку «Історія транзакцій», де усі перекази можна відсортувати за періодом та типом операції і натиснути на кнопку «Пошук».
+help.adminclient=Для того щоб, <b>додати нового адміністратора</b> натисніть на кнопку «Додати Адміна», де у поле «Логін» потрібно ввести логін, складається тільки з цифр та букв; у поля «Пароль» та «Підтвердіть введення паролю» ввести новий пароль; у поля «Ім'я», «Прізвище», «По батькові» потрібно ввести персональні дані; встановити права доступу у розділі «Права доступу».\n\nДля того щоб, <b>змінити пароль</b> для Вашого аккаунту натисніть на кнопку «Змінити пароль», де у поле «Старий пароль» Вам потрібно ввести пароль, який зараз використовується, у поля «Новий пароль» та «Підтвердіть новий пароль» потрібно ввести новий пароль для Вашого аккаунту.\n<u>Вимоги до паролю</u>: повинен бути не менше 6 символів, містити хоча б одну цифру, одну маленьку літеру та одну велику літеру.\n\n Для того, щоб <b>вийти з аккаунту</b> натисніть на кнопку «Вийти» і Ви потрапите на форму авторизації.\n\nДля того, щоб <b>редагувати користувача</b> потрібно перейти на вкладку «Користувачі» і натиснути на кнопку «Редагувати» напроти обраного користувача, з’явиться форма редагування користувача, заповнити отриману форму та натиснути на кнопку «Підтвердити».\n\nДля того, щоб <b>видалити адміністратора</b> потрібно перейти на вкладку «Адміністратори» і натиснути на кнопку «Видалити» напроти обраного адміністратора.
+
+#Messages
+msg.title.success=Успішно
+msg.title.warning=Увага
+msg.title.error=Помилка
+msg.title.critical=Критична Помилка
+msg.title.terminate=Програма буде припинена!
+msg.general.nointernet=Немає підключення до інтернету! \nБудь ласка, перевірте підключення та спробуйте ще раз.
+msg.general.statementerror=Помилка виконання SQL запиту! Подробиці в консолі.
+msg.general.unknownerror=Сталася невідома помилка! Подробиці у консолі.
+msg.general.erroropenfile=Помилка читання історії транзакцій!
+msg.general.errorwritefile=Помилка збереження історії транзакцій!
+msg.general.newversion=Нова версія AllCash доступна!\nБудь ласка, обновіть AllCash до останньої версії.
+msg.admin.invalidlogin=Невірний логін!\nЛогін повинен починатися з "admin_"\nі містити тільки букви і цифри.
+msg.admin.logintaken=Цей логін вже зайнятий.
+msg.general.weakpassword=Пароль дуже слабкий!\nВимоги до паролю:\n- повинен бути не менше 6 символів\n- повинен бути не більше 32 символів\n- містити хоча б одну малу літеру,\n  одну прописну букву і число.
+msg.general.passwordnotmatch=Новий пароль і пароль підтвердження не збігається!
+msg.general.invalidfirstname=Ім'я повинно починатися з великої\nлітери і містити тільки літери.
+msg.general.invalidsecondname=Прізвище повинно починатися з великої\nлітери і містити тільки літери.
+msg.general.invalidmiddlename=По батькові повинно починатися з великої\nлітери і містити тільки літери.
+msg.admin.adminregistered=Новий адміністратор успішно зареєстрований!
+msg.admin.nopermissionaddadmin=Вибачте, у вас немає прав на додавання / видалення адміністраторів.
+msg.admin.cantdeleteyourself=Ви не можете видалити себе!
+msg.general.confirmaction=Підтвердіть Дію
+msg.admin.suretodeleteadmin=Ви впевнені, що хочете видалити адміністратора
+msg.user.invalidphoneorpassword=Невірний телефон або пароль!
+msg.general.invalidoldpassword=Старий пароль невірний!
+msg.general.passwordmustnotmatchwithprevious=Новий пароль не повинен співпадати з попереднім паролем!
+msg.general.passwordchanged=Пароль успішно змінено!
+msg.money.moneytransfered=Успішно перераховано %amount%\nдо гаманця %wallet%.
+msg.general.invalidphone=Неправильний формат телефону!\nПравильний формат телефону: +XXXXXXXXXXXXX
+msg.general.phoneregistered=Телефон "%phone%" вже зареєстрований.
+msg.money.invalidformat=Неправильний формат коштів.
+msg.admin.usermodified=Користувач успішно змінений.
+msg.user.accountregistered=Вітаємо!\nВаш аккаунт успішно зареєстрований!\nВикористовуйте свій телефон і пароль для входу.
+msg.general.invalidwallet=Неправильний формат гаманця.
+msg.money.canttransfertoyourself=Ви не можете перевести гроші собі!
+msg.user.walletcopied=Ваш гаманець скопійований в буфер обміну.
+msg.money.notenoughmoney=Недостатньо коштів на Вашому гаманці.
+msg.general.walletnotexists=Цей гаманець не існує.
+msg.money.transferto=Переказ коштів на
+msg.money.transferfrom=Отримання коштів від
